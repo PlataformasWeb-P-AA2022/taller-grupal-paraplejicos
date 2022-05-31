@@ -1,0 +1,18 @@
+{% extends 'master.html' %}
+
+{% block content %}
+    <span class="title">
+        <h1>Matricula - ({{ matricula.id }})</h1>
+    </span>
+    <div class="content">
+            <div class="student">
+                <p><b>Nombre:</b>{{ docente.n_propietario }}</p>
+                <hr>
+                <p><b>Placa:</b>{{ docente.placa }}</p>
+                <hr>
+                <p><b>Año:</b>{{ docente.anio }}</p>
+                <hr>
+                <p><b>Costo:</b>{{ docente.precio }}</p>
+            </div>
+    </div>
+{% endblock %}
